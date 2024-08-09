@@ -1,0 +1,69 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 11 Dec, 2023, 9:47:20 PM
+    Author     : ranea
+*/
+        .container {
+            max-width: 600px; /* Adjust the maximum width for better readability */
+        }
+
+        h2 {
+            color: #1393de; /* Custom color */
+        }
+
+        .form-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .form-input {
+            max-width: 600px;
+            width: 100%;
+            background-color: #f0f0f0;
+            margin: 10px 0;
+            height: 55px;
+            border-radius: 55px;
+            display: grid;
+            grid-template-columns: 15% 85%;
+            padding: 0 1rem;
+            position: relative;
+            border: none;
+            outline: none;
+            color: #333;
+            font-weight: 400;
+            font-size: 1.1rem;
+        }   
+        label {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #1393de;
+            color:white;
+            border: none;
+            outline: none;
+            padding: 11px;
+            border-radius: 55px;
+            transition: 0.5s;
+        }
+        button:hover {
+            background-color: #4eade5;
+            color: black;
+            
+        }
